@@ -38,7 +38,7 @@ $(document).ready(function() {
           //console.log(this);
           var name = $(this).attr('data-name');
           var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + name + "&api_key=";
-          var APIkey = "dc6zaTOxFJmzC&limit=10";
+          var APIkey = "QGE49IAthSIZFX6xPSmr4K0Yb9pUaOb4";
           $.ajax({
             url: queryURL+APIkey,
             method: "GET"
